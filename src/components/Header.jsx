@@ -1,13 +1,13 @@
 function Header() {
 return (
-    <>
+    <section className="border-b border-[#BAB2E7]">
     <p>DARK MODE</p>
-    <a href="">TÜRKÇE</a><a>'YE GEÇ</a>
-    <p>A</p>
-    <a href="">Skills</a>
-    <a href="">Projects</a>
-    <button>Hire Me</button>
-    </>
+    <a >TÜRKÇE</a><a>'YE GEÇ</a>
+    <img src="./src/assets/icons/a-logo.png" />
+    <a className="text-[#6B7280]">Skills</a>
+    <a className="text-[#6B7280]">Projects</a>
+    <button className="text-[#3730A3] border-[#3730A3]">Hire Me</button>
+    </section>
 );
 }
 
