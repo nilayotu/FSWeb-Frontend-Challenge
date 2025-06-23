@@ -16,9 +16,9 @@ function App() {
   return (
     <ThemeProvider>
     <LanguageProvider>
-    <div className="min-h-screen flex flex-col justify-between dark:bg-gray-900 dark:text-white">
+    <div className="min-h-screen flex flex-col justify-between dark:bg-[#252128] dark:text-white">
     <Header />
-    <main className="p-6 space-y-10">
+    <main className="space-y-10">
     <Introduction />
     <Skills />
     <Profile />

@@ -6,27 +6,25 @@ const Profile = () => {
   const { title, fields, aboutTitle, aboutParagraphs } = t.profile;
 
   return (
-    <section className="border-b border-[#BAB2E7] px-6 py-12 dark:bg-gray-800 dark:text-white">
-      <h1 className="text-4xl sm:text-6xl font-bold text-[#1F2937] dark:text-white mb-8 text-left">
+    <section className="px-6 md:px-12 lg:px-24 py-6 md:py-10 border-b border-[#BAB2E7] dark:text-white dark:bg-[#252128]">
+      <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1F2937] dark:text-[#AEBCCF] mb-8 text-left">
   {title}
 </h1>
-      <div className="grid md:grid-cols-2 gap-12">
-        {/* Sol taraf: Kişisel bilgiler */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
         <div>
-  <h2 className="text-2xl text-[#4338CA] mb-4">{title}</h2>
+  <h2 className="text-xl md:text-2xl font-semibold text-[#4338CA] dark:text-[#B7AAFF] mb-4 text-left">{title}</h2>
   {fields.map((item, index) => (
-    <div key={index} className="mb-2 flex gap-x-8">
-      <p className="font-bold min-w-[100px]">{item.label}</p>
+    <div key={index} className="mb-2 flex gap-x-4 sm:gap-x-6">
+      <p className="font-semibold dark:text-white min-w-[100px] text-left">{item.label}</p>
       <p>{item.value}</p>
     </div>
   ))}
 </div>
 
-        {/* Sağ taraf: Hakkımda */}
         <div>
-          <h2 className="text-2xl text-[#4338CA] mb-4">{aboutTitle}</h2>
+          <h2 className="text-xl md:text-2xl font-semibold text-[#4338CA] dark:text-[#B7AAFF] mb-4 text-left">{aboutTitle}</h2>
           {aboutParagraphs.map((text, i) => (
-            <p key={i} className="text-[#6B7280] dark:text-gray-300 mb-4">{text}</p>
+            <p key={i} className="text-[#6B7280] text-left dark:text-[#FFFFFF] mb-4">{text}</p>
           ))}
         </div>
       </div>

@@ -34,7 +34,7 @@ export default {
     fields: [
       { label: "Birth Date", value: "24.03.1996" },
       { label: "City", value: "Ankara" },
-      { label: "Education", value: "Hacettepe University, Biology, 2016" },
+      { label: "Education", value: "Hacettepe University\nBiology, 2016" },
       { label: "Preferred Role", value: "Frontend, UI" }
     ],
     aboutTitle: "About Me",
@@ -49,7 +49,7 @@ export default {
     actions: ["Github", "View Site"]
   },
   footer: {
-    title: "Let’s work together on your next product.",
+    title: "Let’s work together on\nyour next product.",
     email: "almilasucode@gmail.com",
     links: ["Personal Blog", "Github", "Linkedin"]
   }

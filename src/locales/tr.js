@@ -49,7 +49,7 @@ export default {
     actions: ["Github", "Siteyi Görüntüle"]
   },
   footer: {
-    title: "Sonraki ürününüz için birlikte çalışalım.",
+    title: "Sonraki ürününüz için\nbirlikte çalışalım.",
     email: "almilasucode@gmail.com",
     links: ["Kişisel Blog", "Github", "Linkedin"]
   }
