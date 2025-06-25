@@ -7,7 +7,7 @@ export default {
     hireMe: "Beni işe al",
   },
   introduction: {
-    name: "Almila Su",
+    name: "————Almila Su",
     title: "Yaratıcı düşünür\nMinimalizm hayranı",
     description: "Merhaba, ben Almila. Full-stack developer'ım. Güçlü ve ölçeklenebilir frontend ürünleri üretmek isteyenler için buradayım. El sıkışalım mı?",
     buttons: ["Beni işe al", "Github", "Linkedin"],
@@ -45,8 +45,32 @@ export default {
   },
   projects: {
     title: "Projeler",
-    tags: ["react", "redux", "axios"],
-    actions: ["Github", "Siteyi Görüntüle"]
+    list: [
+      {
+        id: 1,
+        title: "Workintech",
+        description:
+          "Basit, özelleştirilebilir, minimal bir kurulumla çalışan bir çerez (cookie) eklentisi. Kullanıcılarınızın hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur. NPM paketi olarak mevcuttur ve git deposu sayesinde koda ve temalara her türlü özelleştirme yapılabilmesi mümkündür.",
+        tags: ["react", "redux", "axios"],
+        image: "./src/assets/workintech.png",
+      },
+      {
+        id: 2,
+        title: "Rastgele Şakalar",
+        description:
+          "Basit, özelleştirilebilir, minimal bir kurulumla çalışan bir çerez (cookie) eklentisi. Kullanıcılarınızın hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur. NPM paketi olarak mevcuttur ve git deposu sayesinde koda ve temalara her türlü özelleştirme yapılabilmesi mümkündür.",
+        tags: ["react", "redux", "axios"],
+        image: "./src/assets/random-jokes.png",
+      },
+      {
+        id: 3,
+        title: "Yolculuk",
+        description:
+          "Basit, özelleştirilebilir, minimal bir kurulumla çalışan bir çerez (cookie) eklentisi. Kullanıcılarınızın hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur. NPM paketi olarak mevcuttur ve git deposu sayesinde koda ve temalara her türlü özelleştirme yapılabilmesi mümkündür.",
+        tags: ["react", "redux", "axios"],
+        image: "./src/assets/journey.png",
+      }
+    ]
   },
   footer: {
     title: "Sonraki ürününüz için\nbirlikte çalışalım.",

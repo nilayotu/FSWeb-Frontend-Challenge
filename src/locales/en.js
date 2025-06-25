@@ -7,7 +7,7 @@ export default {
     hireMe: "Hire Me",
   },
   introduction: {
-    name: "Almila Su",
+    name: "————Almila Su",
     title: "Creative thinker\nMinimalism lover",
     description: "Hi, I'm Almila. I'm a full-stack developer. If you are looking for a Developer to craft solid and scalable frontend products with great user experiences, let's shake hands with me.",
     buttons: ["Hire me", "Github", "Linkedin"],
@@ -45,8 +45,38 @@ export default {
   },
   projects: {
     title: "Projects",
-    tags: ["react", "redux", "axios"],
-    actions: ["Github", "View Site"]
+    list: [
+      {
+        id: 1,
+        title: "Workintech",
+        description:
+          "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+        tags: ["react", "redux", "axios"],
+        image: "./src/assets/workintech.png",
+        github: "https://github.com/almila-su/workintech",
+        live: "https://almila-workintech.vercel.app"
+      },
+      {
+        id: 2,
+        title: "Random Jokes",
+        description:
+          "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+        tags: ["react", "redux", "axios"],
+        image: "./src/assets/random-jokes.png",
+        github: "https://github.com/almila-su/random-jokes",
+        live: "https://almila-jokes.vercel.app"
+      },
+      {
+        id: 3,
+        title: "Journey",
+        description:
+          "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+        tags: ["react", "redux", "axios"],
+        image: "./src/assets/journey.png",
+        github: "https://github.com/almila-su/journey",
+        live: "https://almila-journey.vercel.app"
+      }
+    ]
   },
   footer: {
     title: "Let’s work together on\nyour next product.",
