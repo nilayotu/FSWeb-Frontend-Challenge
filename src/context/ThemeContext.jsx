@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, useState, useContext } from "react";
+import { toast } from "react-toastify";
 
 export const ThemeContext = createContext();
 
@@ -13,7 +14,21 @@ const ThemeProvider = ({ children }) => {
     localStorage.setItem("theme", JSON.stringify(darkMode));
   }, [darkMode]);
 
-  const toggleTheme = () => setDarkMode((prev) => !prev);
+  const toggleTheme = () => {
+    const newMode = !darkMode;
+    setDarkMode(newMode);
+
+    const lang = localStorage.getItem("lang") || "tr";
+    toast(
+      newMode
+        ? lang === "tr"
+          ? "Karanlık mod aktif"
+          : "Dark mode enabled"
+        : lang === "tr"
+          ? "Aydınlık mod aktif"
+          : "Light mode enabled"
+    );
+  };
 
   return (
     <ThemeContext.Provider value={{ darkMode, toggleTheme }}>
