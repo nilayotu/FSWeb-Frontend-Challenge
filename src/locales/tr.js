@@ -53,7 +53,7 @@ export default {
         description:
           "Basit, özelleştirilebilir, minimal bir kurulumla çalışan bir çerez (cookie) eklentisi. Kullanıcılarınızın hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur. NPM paketi olarak mevcuttur ve git deposu sayesinde koda ve temalara her türlü özelleştirme yapılabilmesi mümkündür.",
         tags: ["react", "redux", "axios"],
-        image: "./src/assets/workintech.png",
+        image: "/public/assets/workintech.png",
       },
       {
         id: 2,
@@ -61,7 +61,7 @@ export default {
         description:
           "Basit, özelleştirilebilir, minimal bir kurulumla çalışan bir çerez (cookie) eklentisi. Kullanıcılarınızın hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur. NPM paketi olarak mevcuttur ve git deposu sayesinde koda ve temalara her türlü özelleştirme yapılabilmesi mümkündür.",
         tags: ["react", "redux", "axios"],
-        image: "./src/assets/random-jokes.png",
+        image: "/public/assets/random-jokes.png",
       },
       {
         id: 3,
@@ -69,7 +69,7 @@ export default {
         description:
           "Basit, özelleştirilebilir, minimal bir kurulumla çalışan bir çerez (cookie) eklentisi. Kullanıcılarınızın hangi çerezleri kabul edip etmeyeceklerini seçmelerine olanak tanır. Bu eklenti vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur. NPM paketi olarak mevcuttur ve git deposu sayesinde koda ve temalara her türlü özelleştirme yapılabilmesi mümkündür.",
         tags: ["react", "redux", "axios"],
-        image: "./src/assets/journey.png",
+        image: "/public/assets/journey.png",
       }
     ]
   },

@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="flex flex-col gap-8">
       <h2 className="text-2xl md:text-3xl lg:text-4xl text-left font-bold whitespace-pre-line">{t.footer.title}</h2>
       <a className="text-[#AF0C48] dark:text-[#BAB2E7] text-base md:text-lg hover:cursor-pointer underline flex items-center gap-2 font-semibold">
-        <img src="/src/assets/icons/pointer.png" alt="Pointer" className="w-4 h-4" />
+        <img src="/public/assets/icons/pointer.png" alt="Pointer" className="w-4 h-4" />
         {t.footer.email}
       </a>
     </div>
