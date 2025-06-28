@@ -44,7 +44,7 @@ const Introduction = () => {
               {buttons[1]}
             </button>
             <button className="bg-white text-[#3730A3] dark:text-[#E1E1FF] dark:bg-[#383838] border border-[#3730A3] dark:border-[#E1E1FF] px-4 py-2 rounded flex items-center gap-2">
-              <img src="/assets/icons/Linkedin.png" alt="LinkedIn" className="h-5" />
+              <img src="/assets/icons/linkedin.png" alt="LinkedIn" className="h-5" />
               {buttons[2]}
             </button>
           </div>
