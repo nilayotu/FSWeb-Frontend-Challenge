@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Introduction = () => {
   const { t } = useContext(LanguageContext);
@@ -36,18 +38,20 @@ const Introduction = () => {
   {description}
 </p>
           <div className="flex gap-4 flex-wrap justify-center md:justify-start">
-            <button className="text-white bg-[#3730A3] dark:bg-[#E1E1FF] dark:text-[#000000] px-4 py-2 rounded hover:bg-[#2b279c]">
-              {buttons[0]}
-            </button>
-            <button className="bg-white text-[#3730A3] dark:text-[#E1E1FF] dark:bg-[#383838] dark:border-[#E1E1FF] border border-[#3730A3] px-4 py-2 rounded flex items-center gap-2">
-              <img src="/assets/icons/github.png" alt="GitHub" className="h-5" />
-              {buttons[1]}
-            </button>
-            <button className="bg-white text-[#3730A3] dark:text-[#E1E1FF] dark:bg-[#383838] border border-[#3730A3] dark:border-[#E1E1FF] px-4 py-2 rounded flex items-center gap-2">
-              <img src="/assets/icons/linkedin.png" alt="Linkedin" className="h-5" />
-              {buttons[2]}
-            </button>
-          </div>
+  <button className="text-white bg-[#3730A3] dark:bg-[#E1E1FF] dark:text-[#000000] px-4 py-2 rounded hover:bg-[#2b279c]">
+    {buttons[0]}
+  </button>
+
+  <button className="bg-white text-[#3730A3] dark:text-[#E1E1FF] dark:bg-[#383838] dark:border-[#E1E1FF] border border-[#3730A3] px-4 py-2 rounded flex items-center gap-2">
+    <FontAwesomeIcon icon={faGithub} className="h-5 w-5" />
+    {buttons[1]}
+  </button>
+
+  <button className="bg-white text-[#3730A3] dark:text-[#E1E1FF] dark:bg-[#383838] border border-[#3730A3] dark:border-[#E1E1FF] px-4 py-2 rounded flex items-center gap-2">
+    <FontAwesomeIcon icon={faLinkedin} className="h-5 w-5" />
+    {buttons[2]}
+  </button>
+</div>
         </div>
 
 
