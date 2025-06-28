@@ -53,7 +53,7 @@ export default {
         description:
           "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
         tags: ["react", "redux", "axios"],
-        image: "/public/assets/workintech.png",
+        image: "/assets/workintech.png",
         github: "https://github.com/almila-su/workintech",
         live: "https://almila-workintech.vercel.app"
       },
@@ -63,7 +63,7 @@ export default {
         description:
           "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
         tags: ["react", "redux", "axios"],
-        image: "/public/assets/random-jokes.png",
+        image: "/assets/random-jokes.png",
         github: "https://github.com/almila-su/random-jokes",
         live: "https://almila-jokes.vercel.app"
       },
@@ -73,7 +73,7 @@ export default {
         description:
           "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
         tags: ["react", "redux", "axios"],
-        image: "/public/assets/journey.png",
+        image: "/assets/journey.png",
         github: "https://github.com/almila-su/journey",
         live: "https://almila-journey.vercel.app"
       }

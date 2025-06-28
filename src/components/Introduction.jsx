@@ -9,7 +9,7 @@ const Introduction = () => {
     <section className="px-6 md:px-12 lg:px-24 py-10 md:py-16 lg:py-12 dark:bg-[#252128] dark:text-white">
 
       <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-10">
-  <img src="/public/assets/icons/a-logo.png" alt="Logo" className="h-10"/>
+  <img src="/assets/icons/a-logo.png" alt="Logo" className="h-10"/>
 
   <nav className="flex flex-wrap items-center gap-4 sm:gap-8 md:gap-12 lg:gap-16">
     <a href="#skills" className="text-[#6B7280] hover:text-[#3730A3]">
@@ -40,11 +40,11 @@ const Introduction = () => {
               {buttons[0]}
             </button>
             <button className="bg-white text-[#3730A3] dark:text-[#E1E1FF] dark:bg-[#383838] dark:border-[#E1E1FF] border border-[#3730A3] px-4 py-2 rounded flex items-center gap-2">
-              <img src="/public/assets/icons/github.png" alt="GitHub" className="h-5" />
+              <img src="/assets/icons/github.png" alt="GitHub" className="h-5" />
               {buttons[1]}
             </button>
             <button className="bg-white text-[#3730A3] dark:text-[#E1E1FF] dark:bg-[#383838] border border-[#3730A3] dark:border-[#E1E1FF] px-4 py-2 rounded flex items-center gap-2">
-              <img src="/public/assets/icons/Linkedin.png" alt="LinkedIn" className="h-5" />
+              <img src="/assets/icons/Linkedin.png" alt="LinkedIn" className="h-5" />
               {buttons[2]}
             </button>
           </div>
@@ -53,7 +53,7 @@ const Introduction = () => {
 
         <div className="flex-1">
           <img
-            src="/public/assets/creative-thinker.png"
+            src="/assets/creative-thinker.png"
             alt="Creative Thinker"
             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-xl shadow-md mx-auto md:mx-0"
           />
