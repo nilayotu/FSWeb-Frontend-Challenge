@@ -8,7 +8,6 @@ const Introduction = () => {
   return (
     <section className="px-6 md:px-12 lg:px-24 py-10 md:py-16 lg:py-12 dark:bg-[#252128] dark:text-white">
 
-      {/* Navbar */}
       <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-10">
   <img src="./src/assets/icons/a-logo.png" alt="Logo" className="h-10"/>
 
@@ -25,9 +24,9 @@ const Introduction = () => {
   </nav>
 </div>
 
-      {/* Ana içerik (yazı + görsel) */}
+
       <div className="flex flex-col md:flex-row items-center justify-between gap-10">
-        {/* Sol - Yazılar ve Butonlar */}
+
         <div className="flex-1 text-center md:text-left">
           <h3 className="text-[#4338CA] text-base md:text-lg mb-2 dark:text-[#B7AAFF] font-bold">{name}</h3>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1F2937] dark:text-[#AEBCCF] mb-6 whitespace-pre-line">
@@ -51,7 +50,7 @@ const Introduction = () => {
           </div>
         </div>
 
-        {/* Sağ - Görsel */}
+
         <div className="flex-1">
           <img
             src="./src/assets/creative-thinker.png"

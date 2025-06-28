@@ -11,15 +11,11 @@ import LanguageProvider from "./context/LanguageContext";
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 
-
-
 function App() {
 
   return (
     <LanguageProvider>
     <ThemeProvider>
-    
-    <div className="min-h-screen flex flex-col justify-between dark:bg-[#252128] dark:text-white">
     <Header />
     <main className="space-y-10">
     <Introduction />
@@ -28,9 +24,7 @@ function App() {
     <Projects />
     </main>
     <Footer />
-    </div>
-    <ToastContainer position="top-right" autoClose={2000} />
-    
+    <ToastContainer position="top-right" autoClose={1000} />
     </ThemeProvider>
     </LanguageProvider>
     

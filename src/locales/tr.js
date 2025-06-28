@@ -1,6 +1,7 @@
 export default {
   header: {
-    darkMode: "KARANLIK MOD",
+    darkModeOn: "AYDINLIK MOD",
+    darkModeOff: "KARANLIK MOD",
     switchLang: "İNGİLİZCE'YE GEÇ",
     skills: "Yetenekler",
     projects: "Projeler",

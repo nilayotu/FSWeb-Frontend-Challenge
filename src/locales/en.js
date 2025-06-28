@@ -1,6 +1,7 @@
 export default {
   header: {
-    darkMode: "DARK MODE",
+    darkModeOn: "LIGHT MODE",
+    darkModeOff: "DARK MODE",
     switchLang: "SWITCH TO TURKISH",
     skills: "Skills",
     projects: "Projects",
